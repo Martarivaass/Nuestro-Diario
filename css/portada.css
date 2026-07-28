@@ -1,0 +1,72 @@
+.diario{
+  position:absolute;
+  height:67vh;
+  min-height:470px;
+  width:auto;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%) rotate(-2.5deg);
+  filter:drop-shadow(0 36px 34px rgba(0,0,0,.24));
+  transition:1.4s cubic-bezier(.19,1,.22,1);
+  z-index:20;
+}
+
+.diario::before{
+  content:"";
+  position:absolute;
+  left:50%;
+  bottom:-24px;
+  width:72%;
+  height:28px;
+  transform:translateX(-50%) rotate(-2deg);
+  background:radial-gradient(ellipse at center, rgba(0,0,0,.24), rgba(0,0,0,0) 70%);
+  filter:blur(10px);
+  z-index:-1;
+  pointer-events:none;
+}
+
+.diario.abierto{
+  transform:translate(-50%,-50%) translateY(-6px) scale(1.03) rotate(-2deg);
+  filter:drop-shadow(0 20px 30px rgba(0,0,0,.22));
+}
+
+.portada-wrap{
+  position:relative;
+  height:100%;
+  display:inline-block;
+  z-index:3;
+  transform:translateZ(0);
+}
+
+.portada{
+  height:100%;
+  width:auto;
+  display:block;
+  object-fit:contain;
+  filter:drop-shadow(0 24px 34px rgba(0,0,0,.28));
+  transform-origin:left center;
+  transition:transform 1.25s cubic-bezier(.22,.61,.36,1);
+  position:relative;
+  z-index:3;
+}
+
+.diario.abierto .portada{
+  transform:rotateY(-155deg) translateX(8px);
+}
+
+.goma{
+  position:absolute;
+  top:7%;
+  right:-14px;
+  width:14px;
+  height:44%;
+  background:linear-gradient(180deg, #d3b79b, #a7805a);
+  border-radius:999px;
+  z-index:4;
+  transition:transform .8s ease, box-shadow .8s ease;
+  box-shadow:0 8px 16px rgba(0,0,0,.18);
+}
+
+.diario.abierto .goma{
+  transform:translateX(28px) rotate(-5deg);
+}
