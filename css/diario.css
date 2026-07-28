@@ -116,3 +116,17 @@
     display:block;
 
 }
+
+#libro.abierto .portada{
+
+    transform:rotateY(-165deg);
+
+}
+
+#libro.abierto .goma{
+
+    transform:translateX(40px);
+
+    opacity:0;
+
+}
