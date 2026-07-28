@@ -1,70 +1,33 @@
 *{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    font-family:"Caveat",cursive;
 }
 
 body{
-  overflow:hidden;
-  font-family:Georgia, serif;
-  background:#f4e4c7;
-  min-height:100dvh;
-  touch-action:manipulation;
-}
-
-.papel,
-.papel h1,
-.papel p,
-.fecha,
-.firma{
-  font-family:'Caveat', 'Segoe Script', cursive;
+    background:#2d241d;
 }
 
 .escena{
-  position:relative;
-  width:100vw;
-  height:100vh;
-  min-height:100dvh;
-  overflow:hidden;
-  perspective:1800px;
+    position:relative;
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
 }
 
 .mesa{
-  position:absolute;
-  inset:0;
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  object-position:center;
-}
-
-.luz{
-  position:absolute;
-  inset:0;
-  background:linear-gradient(120deg, rgba(255,220,150,.18), rgba(255,255,255,0));
-  pointer-events:none;
-  animation:atardecer 8s ease-in-out infinite alternate;
-}
-
-.sombra{
-  position:absolute;
-  left:50%;
-  bottom:12vh;
-  width:40vw;
-  height:8vh;
-  transform:translateX(-50%);
-  background:rgba(0,0,0,.16);
-  filter:blur(28px);
-  border-radius:50%;
-  pointer-events:none;
-}
-
-.polvo{
-  position:absolute;
-  inset:0;
-  pointer-events:none;
-  background-image:radial-gradient(rgba(255,255,255,.35) 1px, transparent 1px);
-  background-size:18px 18px;
-  opacity:.35;
-  animation:flotar 12s linear infinite;
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    user-select:none;
+    pointer-events:none;
 }

@@ -1,60 +1,26 @@
-@keyframes atardecer{
-  0%{ opacity:.72; background:linear-gradient(120deg, rgba(255,192,92,.2), rgba(255,255,255,0)); }
-  50%{ opacity:.95; background:linear-gradient(115deg, rgba(255,215,140,.24), rgba(255,255,255,0)); }
-  100%{ opacity:.84; background:linear-gradient(125deg, rgba(255,173,86,.16), rgba(255,255,255,0)); }
+@keyframes aparecer{
+
+0%{
+
+opacity:0;
+
+transform:
+
+translate(-50%,-46%)
+
+scale(.96);
+
 }
 
-@keyframes flotar{
-  from { transform:translateY(0); }
-  to { transform:translateY(12px); }
+100%{
+
+opacity:1;
+
+transform:
+
+translate(-50%,-50%)
+
+scale(1);
+
 }
-
-@keyframes pulseSuave{
-  0%, 100% { transform: translate(-50%, -50%) scale(1); }
-  50% { transform: translate(-50%, -50%) scale(1.01); }
-}
-
-.diario {
-  animation:pulseSuave 6s ease-in-out infinite;
-}
-
-.diario.abierto {
-  animation:none;
-}
-
-@media (max-width: 800px){
-  .diario{
-    height:58vh;
-    min-height:320px;
-    top:48%;
-    transform:translate(-50%,-50%) rotate(-1.8deg);
-  }
-
-  .sombra{
-    bottom:10vh;
-    width:60vw;
-    height:7vh;
-  }
-
-  .pagina{
-    inset:10px;
-  }
-
-  .papel{
-    padding:22px 18px;
-  }
-
-  .papel h1{
-    font-size:18px;
-  }
-
-  .papel p{
-    font-size:13px;
-  }
-
-  #abrir{
-    bottom:24px;
-    padding:9px 18px;
-    font-size:14px;
-  }
 }
