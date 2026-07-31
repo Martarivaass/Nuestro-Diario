@@ -1,51 +1,120 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nuestro Diario</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/portada.css">
-  <link rel="stylesheet" href="css/diario.css">
-  <link rel="stylesheet" href="css/animaciones.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nuestro Diario</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/portada.css">
+    <link rel="stylesheet" href="css/diario.css">
+    <link rel="stylesheet" href="css/animaciones.css">
+
 </head>
+
 <body>
 
 <div class="escena">
 
-    <img class="mesa" src="assets/images/mesa.png">
+    <!-- Fondo -->
+    <img
+        class="mesa"
+        src="assets/images/mesa.png"
+        alt="Mesa de madera">
 
-    <div class="luz"></div>
-
+    <!-- Libro -->
     <div id="libro">
-        <div class="sombra"></div>
-        <div class="contraportada"></div>
 
-        <div class="paginas">
-            <div class="canto"></div>
-            <div class="pagina izquierda"></div>
-            <div class="pagina derecha" id="primeraPagina"></div>
-        </div>
-
+        <!-- Portada -->
         <div class="portada">
-            <img src="assets/images/diario.png" alt="Nuestro Diario">
+
+            <img
+                src="assets/images/diario.png"
+                alt="Nuestro Diario">
+
         </div>
 
+        <!-- Goma -->
         <div class="goma"></div>
+
+        <!-- Página -->
+        <div class="pagina" id="pagina">
+
+            <div class="contenido-pagina">
+
+                <div class="cabecera">
+
+                    <div class="fecha" id="fecha"></div>
+
+                    <div class="estado" id="estado"></div>
+
+                </div>
+
+                <h1 id="titulo"></h1>
+
+                <div
+                    class="texto"
+                    id="texto">
+                </div>
+
+                <div
+                    class="observacion"
+                    id="observacion">
+                </div>
+
+                <div
+                    class="decoracion"
+                    id="decoracion">
+                </div>
+
+                <div class="pie">
+
+                    <button
+                        id="anterior"
+                        class="botonPagina">
+
+                        ← Anterior
+
+                    </button>
+
+                    <button
+                        id="siguiente"
+                        class="botonPagina">
+
+                        Siguiente →
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <div class="etiqueta" id="abrir">
+    <!-- Botón abrir -->
+
+    <button
+        id="abrir"
+        class="botonAbrir">
 
         Abrir
 
-    </div>
+    </button>
 
 </div>
 
 <script src="js/app.js"></script>
 
 </body>
+
 </html>

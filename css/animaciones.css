@@ -1,26 +1,65 @@
 @keyframes aparecer{
 
-0%{
+    from{
 
-opacity:0;
+        opacity:0;
+        transform:translate(-50%,-47%) scale(.97);
 
-transform:
+    }
 
-translate(-50%,-46%)
+    to{
 
-scale(.96);
+        opacity:1;
+        transform:translate(-50%,-50%) scale(1);
+
+    }
+
+}
+
+@keyframes escribir{
+
+    from{
+
+        opacity:0;
+
+    }
+
+    to{
+
+        opacity:1;
+
+    }
 
 }
 
-100%{
+@keyframes pasarPagina{
 
-opacity:1;
+    from{
 
-transform:
+        transform:rotateY(0deg);
 
-translate(-50%,-50%)
+    }
 
-scale(1);
+    to{
+
+        transform:rotateY(-180deg);
+
+    }
 
 }
+
+@keyframes desvanecer{
+
+    from{
+
+        opacity:1;
+
+    }
+
+    to{
+
+        opacity:0;
+
+    }
+
 }

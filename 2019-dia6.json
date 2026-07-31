@@ -1,0 +1,77 @@
+{
+  "id": "2019-dia6",
+  "verano": 2019,
+  "dia": 6,
+  "fecha": "Verano 2019 · Día 6",
+
+  "titulo": "La pulsera",
+
+  "estado": "Enamorada",
+
+  "color": "#EFD9C1",
+
+  "duracion": 45,
+
+  "texto": [
+    "Hemos quedado primero solos y luego con Adrian el mayor.",
+    "",
+    "Cuando estábamos solos...",
+    "",
+    "Te explico.",
+    "",
+    "Yo tengo una pulsera de España, más bien tenía, ya no la tengo.",
+    "Porque él me agarró de la mano y sin decirme nada me la cambió por una que él llevaba.",
+    "Que ahora la llevo yo.",
+    "",
+    "Es de cuerda negra con una cinta en el medio de cuero blanco.",
+    "Es muy bonita.",
+    "",
+    "Él dice que no sabe si podrá usar la mía donde él vive.",
+    "Pero que así nos llevamos un recuerdo del otro.",
+    "",
+    "Me iba el corazón como si fuese a explotar en un millón de trozos.",
+    "",
+    "¿Cómo puede ser tan romántico?",
+    "",
+    "Luego nos fuimos con Adri y se dio cuenta y cuando preguntó Iván le dijo:",
+    "",
+    "«Son cosas nuestras, me gustaba su pulsera.»",
+    "",
+    "Y me miró con una sonrisa.",
+    "",
+    "Me lo quiero comeeeeer."
+  ],
+
+  "observacion": "Aquí supe que estaba enamorándome de verdad.",
+
+  "ilustracion": "pulsera",
+
+  "decoracion": [
+    "corazon",
+    "pulsera",
+    "estrellas"
+  ],
+
+  "audio": {
+    "ambiente": "verano.mp3",
+    "musica": "piano-suave.mp3",
+    "efecto": "pageTurnSlow.mp3"
+  },
+
+  "imagenes": [
+    "pulsera.webp"
+  ],
+
+  "animaciones": {
+    "entrada": "escribir",
+    "pagina": "pageTurnSlow",
+    "salida": "fade"
+  },
+
+  "easterEggs": [
+    {
+      "objeto": "pulsera",
+      "mensaje": "Todavía la guardo."
+    }
+  ]
+}

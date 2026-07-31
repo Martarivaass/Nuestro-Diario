@@ -1,132 +1,221 @@
-#libro{
+/* ========================= */
+/*          PÁGINA           */
+/* ========================= */
 
-    position:absolute;
-
-    left:50%;
-
-    top:50%;
-
-    width:360px;
-
-    height:500px;
-
-    transform:translate(-50%,-50%);
-
-    perspective:2500px;
-
-}
-
-.sombra{
-
-    position:absolute;
-
-    width:105%;
-
-    height:105%;
-
-    left:-3%;
-
-    top:6%;
-
-    background:rgba(0,0,0,.28);
-
-    filter:blur(40px);
-
-    border-radius:25px;
-
-    z-index:0;
-
-}
-
-.contraportada{
+.pagina{
 
     position:absolute;
 
     inset:0;
 
-    background:#d6c8b6;
+    background:#f8f1e7;
 
-    border-radius:18px;
-
-    transform:translateX(12px);
-
-}
-
-.paginas{
-
-    position:absolute;
-
-    inset:8px;
-
-    background:#faf6ef;
-
-    border-radius:14px;
+    border-radius:8px;
 
     overflow:hidden;
 
-}
+    opacity:0;
 
-.canto{
-
-    position:absolute;
-
-    right:0;
-
-    top:0;
-
-    width:16px;
-
-    height:100%;
-
-    background:linear-gradient(
-        to right,
-        #efe8dd,
-        #ffffff,
-        #ddd4c8
-    );
-
-}
-
-.portada{
-
-    position:absolute;
-
-    inset:0;
-
-    transform-origin:left center;
-
-    transition:1.4s;
-
-    border-radius:18px;
-
-    overflow:hidden;
+    pointer-events:none;
 
     z-index:5;
 
 }
 
-.portada img{
+#libro.abierto .pagina{
+
+    opacity:1;
+
+    pointer-events:auto;
+
+}
+
+/* ========================= */
+/*     CONTENIDO PÁGINA      */
+/* ========================= */
+
+.contenido-pagina{
+
+    position:relative;
 
     width:100%;
 
     height:100%;
 
-    object-fit:cover;
+    padding:28px;
 
-    display:block;
+    display:flex;
+
+    flex-direction:column;
+
+    background:
+
+    repeating-linear-gradient(
+
+        to bottom,
+
+        transparent 0px,
+
+        transparent 30px,
+
+        rgba(130,100,70,.12) 30px,
+
+        rgba(130,100,70,.12) 31px
+
+    );
 
 }
 
-#libro.abierto .portada{
+/* ========================= */
 
-    transform:rotateY(-165deg);
+.cabecera{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:18px;
 
 }
 
-#libro.abierto .goma{
+.fecha{
 
-    transform:translateX(40px);
+    font-size:22px;
 
-    opacity:0;
+    color:#82684f;
+
+}
+
+.estado{
+
+    font-size:17px;
+
+    color:#82684f;
+
+}
+
+/* ========================= */
+
+#titulo{
+
+    font-size:34px;
+
+    color:#3b3026;
+
+    margin-bottom:20px;
+
+}
+
+/* ========================= */
+
+#texto{
+
+    flex:1;
+
+    white-space:pre-wrap;
+
+    font-size:22px;
+
+    line-height:1.6;
+
+    color:#4b4036;
+
+}
+
+/* ========================= */
+
+#observacion{
+
+    margin-top:18px;
+
+    font-size:18px;
+
+    font-style:italic;
+
+    color:#8d745c;
+
+}
+
+/* ========================= */
+
+#decoracion{
+
+    margin-top:12px;
+
+    font-size:15px;
+
+    color:#9c866d;
+
+}
+
+/* ========================= */
+
+.pie{
+
+    margin-top:auto;
+
+    padding-top:20px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+/* ========================= */
+
+.botonPagina{
+
+    font-family:"Caveat",cursive;
+
+    font-size:24px;
+
+    background:none;
+
+    border:none;
+
+    color:#7b6249;
+
+    cursor:pointer;
+
+}
+
+.botonPagina:hover{
+
+    transform:scale(1.05);
+
+}
+
+/* ========================= */
+
+@media(max-width:600px){
+
+    .contenido-pagina{
+
+        padding:20px;
+
+    }
+
+    #titulo{
+
+        font-size:29px;
+
+    }
+
+    #texto{
+
+        font-size:19px;
+
+    }
+
+    .botonPagina{
+
+        font-size:21px;
+
+    }
 
 }

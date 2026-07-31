@@ -1,9 +1,0 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const diario = document.getElementById('diario');
-
-  if (diario) {
-    diario.addEventListener('click', () => {
-      diario.classList.add('abierto');
-    });
-  }
-});
