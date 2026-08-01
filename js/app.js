@@ -82,7 +82,7 @@ const paginas = [
 {
     fecha: "Verano 2018 · Día 1",
     titulo: "Vuelvo a verlo ;)",
-    texto: "Hoy lo he vuelto a ver. Está... diferente. No mal, solo diferente. Llevo todo el año pensando en volver a verlo y ahora resulta que en tres días se va otra vez. Me siento triste. Además, solo me responde a las historias cuando subo cosas de opinión y esas cosas. Creo que intenta ir de chulo, pero en realidad es muuuy tímidillo. 🥹",
+    texto: "Hoy lo he vuelto a ver. Está... diferente. No mal, solo diferente. Llevo todo el año pensando en volver a verlo y ahora resulta que en tres días se va otra vez. Me siento triste. Además, solo me responde a las historias cuando subo cosas de opinión y esas cosas. Creo que intenta ir de chulo, pero en realidad es muuuy tímidillo.",
     observacion: "",
     decoracion: "🌊"
 },
@@ -145,7 +145,7 @@ const paginas = [
 {
     fecha: "Verano 2019 · Día 3",
     titulo: "",
-    texto: "Yo le dije que no, porque íbamos a comer después.\n\nPero él salió corriendo con Sara hacia la tienda y le compró chuches igualmente.\n\nAunque me hice la ofendida... por dentro no podía dejar de sonreír. 🥹❤️",
+    texto: "Yo le dije que no, porque íbamos a comer después.\n\nPero él salió corriendo con Sara hacia la tienda y le compró chuches igualmente.\n\nAunque me hice la ofendida... por dentro no podía dejar de sonreír. ❤️",
     observacion: "",
     decoracion: "❤️"
 },
@@ -201,44 +201,51 @@ const paginas = [
 {
     fecha: "Verano 2019 · Día 5",
     titulo: "",
-    texto: "Solo hay una cosa que me da un poco de miedo.\n\nQuiero presentárselo a mis amigas porque estoy segura de que les va a caer súper bien...\n\nPero, al mismo tiempo, me da cosa que le pueda gustar alguna de ellas. Es una sensación rara. No me gusta. 🥺",
+    texto: "Solo hay una cosa que me da un poco de miedo.\n\nQuiero presentárselo a mis amigas porque estoy segura de que les va a caer súper bien...Pero, al mismo tiempo, me da cosa que le pueda gustar alguna de ellas. Es una sensación rara. No me gusta. 🥺",
     observacion: "",
     decoracion: "❤️"
 },
 {
     fecha: "Verano 2019 · Día 6",
     titulo: "",
-    texto: "Hoy hemos quedado primero solos y luego con Adrián.\n\nCuando estábamos solos pasó algo que no voy a olvidar nunca.\n\nYo llevaba una pulsera de España. Bueno... la llevaba hasta hoy. ❤️",
+    texto: "Hoy hemos quedado primero solos y luego con Adrián.\n\nCuando estábamos solos pasó algo que no voy a olvidar nunca.Yo llevaba una pulsera de España. Bueno... la llevaba hasta hoy. ❤️",
     observacion: "",
     decoracion: "🖤🤍"
 },
 {
     fecha: "Verano 2019 · Día 6",
     titulo: "",
-    texto: "Él me agarró de la mano y, sin decirme nada, me cambió mi pulsera por la suya.\n\nAhora la llevo yo.\n\nEs de cuerda negra con una franja de cuero blanco en el centro. Es muy bonita.\n\nMe dijo que no sabía si podría usar la mía donde él vivía, pero que así los dos nos llevaríamos un recuerdo del otro.\n\nSentía que el corazón me iba a explotar en un millón de trozos. ❤️",
+    texto: "Él me agarró de la mano y, sin decirme nada, me cambió mi pulsera por la suya.Ahora la llevo yo.Es de cuerda negra con una franja de cuero blanco en el centro. Es muy bonita.\n\nMe dijo que no sabía si podría usar la mía donde él vivía, pero que así los dos nos llevaríamos un recuerdo del otro.\n\nSentía que el corazón me iba a explotar en un millón de trozos. ❤️",
     observacion: "",
     decoracion: "🖤🤍"
 },
 {
     fecha: "Verano 2019 · Día 6",
     titulo: "",
-    texto: "Después nos fuimos con Adri.\n\nSe dio cuenta enseguida de que llevaba otra pulsera y preguntó qué había pasado.\n\nIván sonrió y le respondió:\n\n«Son cosas nuestras... me gustaba su pulsera.»\n\nY luego me miró con una sonrisa.\n\nMe lo quiero comeeeer. 🥹❤️",
+    texto: "Después nos fuimos con Adri.\n\nSe dio cuenta enseguida de que llevaba otra pulsera y preguntó qué había pasado.\n\nIván sonrió y le respondió:«Son cosas nuestras... me gustaba su pulsera.»Y luego me miró con una sonrisa.\n\nMe lo quiero comeeeer. ❤️",
     observacion: "",
     decoracion: "🖤🤍"
 },
 {
     fecha: "Verano 2019 · Despedida",
     titulo: "",
-    texto: "Y ya está...\n\nSe acabó.\n\nHoy se ha vuelto a ir.\n\nNo puedo parar de llorar. 😢",
+    texto: "Y ya está...Se acabó.\n\nHoy se ha vuelto a ir.\n\nNo puedo parar de llorar. 😢",
     observacion: "",
     decoracion: "🌙"
 },
 {
     fecha: "Verano 2019 · Final",
     titulo: "",
-    texto: "Hoy hemos subido al monte con Adrián.\n\nIntenté hacer lo que dice la gente... ahogar las penas en alcohol.\n\nDecidido. No pienso volver a hacerlo nunca más. Ni yo me sentí bien, ni él tampoco. Se enfadó conmigo y casi ni pudimos despedirnos.\n\nDurante días tuve miedo de haberlo estropeado todo.\n\nPero después de todo este tiempo entendí una cosa...\n\nMe había enamorado de él.\n\nHasta los huesos. ❤️",
+    texto: "Hoy hemos subido al monte con Adrián.\n\nIntenté hacer lo que dice la gente... ahogar las penas en alcohol.Decidido. No pienso volver a hacerlo nunca más. Ni yo me sentí bien, ni él tampoco. Se enfadó conmigo y casi ni pudimos despedirnos.Durante días tuve miedo de haberlo estropeado todo.\n\nPero después de todo este tiempo entendí una cosa...Me había enamorado de él.\n\nHasta los huesos. ❤️",
     observacion: "",
     decoracion: "✨"
+},
+{
+    fecha: "",
+    titulo: "Aquí supe que ya me tenías atrapada. ❤️",
+    texto: "",
+    observacion: "",
+    decoracion: ""
 }
 ];
 
